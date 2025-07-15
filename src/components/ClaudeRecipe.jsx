@@ -4,7 +4,7 @@ export default function ClaudeRecipe({ recipe }) {
     <>
       {recipe && (
         <section className="suggested-recipe-container" aria-live="polite">
-          <h2>Chef Mixtral Recommends:</h2>
+          <h2>Chef Mistral Recommends:</h2>
           <ReactMarkdown>{recipe}</ReactMarkdown>
           {/* <h2>Chef Claude Recommends:</h2>
           <article className="suggested-recipe-container" aria-live="polite">
